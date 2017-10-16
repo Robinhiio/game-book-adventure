@@ -1,6 +1,9 @@
 body {
     background-size: 100% auto;
-    background-image: url("images/background.jpg");
+}
+h2{
+    font-size: 40px;
+    color: white;
 }
 
 .title {
@@ -11,6 +14,13 @@ body {
 .main {
     font-size: 30px;
     color: white;
+}
+
+.skillImage{
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: auto;
 }
 
 th {
@@ -34,4 +44,10 @@ table, th, td {
     color: white;
     float: right;
     font-size: 20px;
+}
+
+.skillLore{
+    color: white;
+    width: 20%;
+
 }
